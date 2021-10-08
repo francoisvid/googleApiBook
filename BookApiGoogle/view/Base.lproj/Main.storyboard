@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zcp-2C-KoA">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="BookApiGoogle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHp-uJ-bHP">
+                                <rect key="frame" x="16" y="138" width="382" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Titre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XXa-Ma-jJP">
+                                <rect key="frame" x="16" y="277" width="382" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Auteur" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5A2-2D-inF">
+                                <rect key="frame" x="16" y="409" width="382" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titre du livre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37P-QH-UX9">
+                                <rect key="frame" x="16" y="239" width="382" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auteur du livre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4K-bU-Q7p">
+                                <rect key="frame" x="16" y="369" width="382" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1r-0C-obQ">
+                                <rect key="frame" x="16" y="513" width="382" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="dfi-TU-Dwp"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="RECHERCHER">
+                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFf-21-ISY">
+                                <rect key="frame" x="16" y="578" width="382" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="9gG-jE-dNC"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="MA BIBLIOTHEQUE">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="U1r-0C-obQ" firstAttribute="leading" secondItem="LFf-21-ISY" secondAttribute="leading" id="9ik-75-PpB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h4K-bU-Q7p" secondAttribute="trailing" constant="16" id="ALd-3z-OjL"/>
+                            <constraint firstItem="37P-QH-UX9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="DSk-qP-ee2"/>
+                            <constraint firstItem="sHp-uJ-bHP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="GQc-iU-Nda"/>
+                            <constraint firstItem="37P-QH-UX9" firstAttribute="top" secondItem="sHp-uJ-bHP" secondAttribute="bottom" constant="65" id="Lgs-Sz-meu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XXa-Ma-jJP" secondAttribute="trailing" constant="16" id="Ndg-Vw-4Dq"/>
+                            <constraint firstItem="XXa-Ma-jJP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Q32-jA-7BU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5A2-2D-inF" secondAttribute="trailing" constant="16" id="Qyt-Kw-TBo"/>
+                            <constraint firstItem="U1r-0C-obQ" firstAttribute="trailing" secondItem="LFf-21-ISY" secondAttribute="trailing" id="Uv2-kW-YKQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="37P-QH-UX9" secondAttribute="trailing" constant="16" id="ieX-EJ-d1g"/>
+                            <constraint firstItem="sHp-uJ-bHP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="j3a-qX-bLP"/>
+                            <constraint firstItem="h4K-bU-Q7p" firstAttribute="top" secondItem="XXa-Ma-jJP" secondAttribute="bottom" constant="58" id="k2t-DF-FUe"/>
+                            <constraint firstItem="XXa-Ma-jJP" firstAttribute="top" secondItem="37P-QH-UX9" secondAttribute="bottom" constant="17" id="kjR-dP-OTp"/>
+                            <constraint firstItem="5A2-2D-inF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lQ5-g4-7tD"/>
+                            <constraint firstItem="LFf-21-ISY" firstAttribute="top" secondItem="U1r-0C-obQ" secondAttribute="bottom" constant="25" id="mVK-Z7-Gdq"/>
+                            <constraint firstItem="h4K-bU-Q7p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ohV-vd-OGe"/>
+                            <constraint firstItem="5A2-2D-inF" firstAttribute="top" secondItem="h4K-bU-Q7p" secondAttribute="bottom" constant="19" id="ugh-K5-r1N"/>
+                            <constraint firstItem="U1r-0C-obQ" firstAttribute="trailing" secondItem="5A2-2D-inF" secondAttribute="trailing" id="v5Q-ey-set"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sHp-uJ-bHP" secondAttribute="trailing" constant="16" id="x8W-Go-Yrf"/>
+                            <constraint firstItem="U1r-0C-obQ" firstAttribute="leading" secondItem="5A2-2D-inF" secondAttribute="leading" id="xCr-TH-YzG"/>
+                            <constraint firstItem="U1r-0C-obQ" firstAttribute="top" secondItem="5A2-2D-inF" secondAttribute="bottom" constant="70" id="xdW-Wl-iGW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="B43-c4-LiJ"/>
+                    <connections>
+                        <outlet property="auteur" destination="5A2-2D-inF" id="Sgy-sJ-qIb"/>
+                        <outlet property="btnBibliotheque" destination="LFf-21-ISY" id="WtK-QL-BvD"/>
+                        <outlet property="btnRechercher" destination="U1r-0C-obQ" id="Cl3-0c-kYU"/>
+                        <outlet property="titre" destination="XXa-Ma-jJP" id="3Ng-y0-Mvz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1002.8985507246377" y="94.419642857142847"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TRz-Ga-lAb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zcp-2C-KoA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Cy-XB-wbd">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3tM-d5-duM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2mF-ZD-12y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="92.753623188405811" y="94.419642857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -16,6 +16,19 @@
 		A7A4D9E8271065FA0089502E /* BookApiGoogleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4D9E7271065FA0089502E /* BookApiGoogleTests.swift */; };
 		A7A4D9F2271065FA0089502E /* BookApiGoogleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4D9F1271065FA0089502E /* BookApiGoogleUITests.swift */; };
 		A7A4D9F4271065FA0089502E /* BookApiGoogleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4D9F3271065FA0089502E /* BookApiGoogleUITestsLaunchTests.swift */; };
+		A7A4DA07271067710089502E /* BookStoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4DA06271067710089502E /* BookStoreController.swift */; };
+		A7A4DA09271067950089502E /* BookStoreController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A4DA08271067950089502E /* BookStoreController.storyboard */; };
+		A7A4DA0B271068370089502E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4DA0A271068370089502E /* ListViewController.swift */; };
+		A7A4DA0D2710684E0089502E /* BibliotequeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4DA0C2710684E0089502E /* BibliotequeController.swift */; };
+		A7A4DA0F2710685B0089502E /* ListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A4DA0E2710685B0089502E /* ListViewController.storyboard */; };
+		A7A4DA11271068700089502E /* BibliotequeController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A4DA10271068700089502E /* BibliotequeController.storyboard */; };
+		A7A4DA13271069970089502E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4DA12271069970089502E /* Book.swift */; };
+		A7A4DA1627106BE20089502E /* BookApiGoogle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7A4DA1427106BE20089502E /* BookApiGoogle.xcdatamodeld */; };
+		A7A4DA1827106D290089502E /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4DA1727106D290089502E /* UIViewController+Alert.swift */; };
+		A7A4DA1E271079210089502E /* BookListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A4DA1D271079210089502E /* BookListViewCell.xib */; };
+		A7A4DA2127107E020089502E /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = A7A4DA2027107E020089502E /* AlamofireImage */; };
+		A7A4DA23271080B20089502E /* BookListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4DA22271080B20089502E /* BookListViewCell.swift */; };
+		A7A4DA2627108BC40089502E /* ListBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4DA2527108BC40089502E /* ListBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,18 @@
 		A7A4D9ED271065FA0089502E /* BookApiGoogleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookApiGoogleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A4D9F1271065FA0089502E /* BookApiGoogleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookApiGoogleUITests.swift; sourceTree = "<group>"; };
 		A7A4D9F3271065FA0089502E /* BookApiGoogleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookApiGoogleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A7A4DA06271067710089502E /* BookStoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreController.swift; sourceTree = "<group>"; };
+		A7A4DA08271067950089502E /* BookStoreController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BookStoreController.storyboard; sourceTree = "<group>"; };
+		A7A4DA0A271068370089502E /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		A7A4DA0C2710684E0089502E /* BibliotequeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibliotequeController.swift; sourceTree = "<group>"; };
+		A7A4DA0E2710685B0089502E /* ListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListViewController.storyboard; sourceTree = "<group>"; };
+		A7A4DA10271068700089502E /* BibliotequeController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BibliotequeController.storyboard; sourceTree = "<group>"; };
+		A7A4DA12271069970089502E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		A7A4DA1527106BE20089502E /* BookApiGoogle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookApiGoogle.xcdatamodel; sourceTree = "<group>"; };
+		A7A4DA1727106D290089502E /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		A7A4DA1D271079210089502E /* BookListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookListViewCell.xib; sourceTree = "<group>"; };
+		A7A4DA22271080B20089502E /* BookListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewCell.swift; sourceTree = "<group>"; };
+		A7A4DA2527108BC40089502E /* ListBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A4DA2127107E020089502E /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,11 +125,12 @@
 		A7A4D9CF271065F90089502E /* BookApiGoogle */ = {
 			isa = PBXGroup;
 			children = (
-				A7A4D9D0271065F90089502E /* AppDelegate.swift */,
-				A7A4D9D2271065F90089502E /* SceneDelegate.swift */,
-				A7A4D9D4271065F90089502E /* ViewController.swift */,
-				A7A4D9D6271065F90089502E /* Main.storyboard */,
-				A7A4D9D9271065F90089502E /* Assets.xcassets */,
+				A7A4DA05271066810089502E /* supporting Files */,
+				A7A4DA04271066780089502E /* database */,
+				A7A4DA03271066600089502E /* extension */,
+				A7A4DA02271066290089502E /* controller */,
+				A7A4DA01271066230089502E /* view */,
+				A7A4DA00271066170089502E /* model */,
 				A7A4D9DB271065F90089502E /* LaunchScreen.storyboard */,
 				A7A4D9DE271065F90089502E /* Info.plist */,
 			);
@@ -127,6 +154,65 @@
 			path = BookApiGoogleUITests;
 			sourceTree = "<group>";
 		};
+		A7A4DA00271066170089502E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A7A4DA12271069970089502E /* Book.swift */,
+				A7A4DA2527108BC40089502E /* ListBook.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A7A4DA01271066230089502E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A7A4D9D6271065F90089502E /* Main.storyboard */,
+				A7A4DA08271067950089502E /* BookStoreController.storyboard */,
+				A7A4DA0E2710685B0089502E /* ListViewController.storyboard */,
+				A7A4DA1D271079210089502E /* BookListViewCell.xib */,
+				A7A4DA10271068700089502E /* BibliotequeController.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A7A4DA02271066290089502E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7A4D9D4271065F90089502E /* ViewController.swift */,
+				A7A4DA06271067710089502E /* BookStoreController.swift */,
+				A7A4DA0A271068370089502E /* ListViewController.swift */,
+				A7A4DA22271080B20089502E /* BookListViewCell.swift */,
+				A7A4DA0C2710684E0089502E /* BibliotequeController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A7A4DA03271066600089502E /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				A7A4DA1727106D290089502E /* UIViewController+Alert.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		A7A4DA04271066780089502E /* database */ = {
+			isa = PBXGroup;
+			children = (
+				A7A4DA1427106BE20089502E /* BookApiGoogle.xcdatamodeld */,
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
+		A7A4DA05271066810089502E /* supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7A4D9D0271065F90089502E /* AppDelegate.swift */,
+				A7A4D9D2271065F90089502E /* SceneDelegate.swift */,
+				A7A4D9D9271065F90089502E /* Assets.xcassets */,
+			);
+			path = "supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +229,9 @@
 			dependencies = (
 			);
 			name = BookApiGoogle;
+			packageProductDependencies = (
+				A7A4DA2027107E020089502E /* AlamofireImage */,
+			);
 			productName = BookApiGoogle;
 			productReference = A7A4D9CD271065F90089502E /* BookApiGoogle.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +304,9 @@
 				Base,
 			);
 			mainGroup = A7A4D9C4271065F90089502E;
+			packageReferences = (
+				A7A4DA1F27107E020089502E /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = A7A4D9CE271065F90089502E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +324,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7A4D9DD271065F90089502E /* LaunchScreen.storyboard in Resources */,
+				A7A4DA1E271079210089502E /* BookListViewCell.xib in Resources */,
+				A7A4DA09271067950089502E /* BookStoreController.storyboard in Resources */,
+				A7A4DA11271068700089502E /* BibliotequeController.storyboard in Resources */,
 				A7A4D9DA271065F90089502E /* Assets.xcassets in Resources */,
 				A7A4D9D8271065F90089502E /* Main.storyboard in Resources */,
+				A7A4DA0F2710685B0089502E /* ListViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +354,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A4DA1827106D290089502E /* UIViewController+Alert.swift in Sources */,
+				A7A4DA07271067710089502E /* BookStoreController.swift in Sources */,
+				A7A4DA2627108BC40089502E /* ListBook.swift in Sources */,
 				A7A4D9D5271065F90089502E /* ViewController.swift in Sources */,
+				A7A4DA23271080B20089502E /* BookListViewCell.swift in Sources */,
+				A7A4DA13271069970089502E /* Book.swift in Sources */,
 				A7A4D9D1271065F90089502E /* AppDelegate.swift in Sources */,
+				A7A4DA1627106BE20089502E /* BookApiGoogle.xcdatamodeld in Sources */,
+				A7A4DA0D2710684E0089502E /* BibliotequeController.swift in Sources */,
+				A7A4DA0B271068370089502E /* ListViewController.swift in Sources */,
 				A7A4D9D3271065F90089502E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,6 +722,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A7A4DA1F27107E020089502E /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A7A4DA2027107E020089502E /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7A4DA1F27107E020089502E /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		A7A4DA1427106BE20089502E /* BookApiGoogle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7A4DA1527106BE20089502E /* BookApiGoogle.xcdatamodel */,
+			);
+			currentVersion = A7A4DA1527106BE20089502E /* BookApiGoogle.xcdatamodel */;
+			path = BookApiGoogle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A7A4D9C5271065F90089502E /* Project object */;
 }
